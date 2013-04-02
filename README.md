@@ -1,5 +1,9 @@
 # ColorDev Extension For Google Chrome
 
+<p align="center">
+  <img src="https://dl.dropbox.com/u/7325499/banner.jpg" alt="ColorDev Banner"/>
+</p>
+
 Customize the color scheme of the code that appears in stackoverflow.
 
 This is not a extension who customize the entire page. The main purpose is to beautify the code that you read from the stackoverflow.
