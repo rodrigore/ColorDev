@@ -8,7 +8,7 @@ Github, bitbucket and more are coming.
 
 ## Install
 
-You can install the extension from the [URL of the webstore](https://chrome.google.com/webstore/detail/blabla)
+You can install the extension from the [URL of the webstore](https://chrome.google.com/webstore/detail/color-dev/kjccccpbheobmffklpejpgjapcbnlkng)
 
 Another option, is install locally,downloading the zip file and loading in the chrome.
 
