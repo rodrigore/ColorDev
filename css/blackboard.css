@@ -1,16 +1,16 @@
 pre, code, blockquote {
-    background-color: #000 !important;
-    color: #f8f8f8 !important;
+    background:#0c1021 !important;
+    color:#f8f8f8 !important;
 }
 
 /*types*/
 .typ {
-    color:#89bdff !important;
+    color:#ff6400 !important;
 }
 
 /*keyword*/
 .kwd {
-    color: #99cf50 !important;
+    color:#fbde2d !important;
 }
 
 /*var*/
@@ -22,22 +22,20 @@ pre, code, blockquote {
 .pun {
     color:#f8f8f8 !important;
 }
-
 /*string*/
 .str {
-    color:#65b042 !important;
+    color:#61ce3c !important;
 }
+
 
 /*literal*/
 .lit {
-    color:#65b042 !important;
+    color:#61ce3c !important;
 }
 
 /*comentary*/
 .com {
     color:#aeaeae !important;
-     font-style: italic !important;
-
 }
 
 /** doctype */
@@ -47,14 +45,17 @@ pre, code, blockquote {
 
 /** attribute */
 .atn {
-    color: #89bdff !important;
+    color:#7f90aa !important;
 }
 
 .tag {
-    color: #89bdff !important;
+    color:#7f90aa !important;
 }
 
 /*attribute HTML*/
 .atv {
-    color:#65b042 !important;
+    color:#61ce3c !important;
 }
+
+
+
