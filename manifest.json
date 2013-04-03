@@ -1,6 +1,6 @@
 {
   "name": "Color Dev",
-  "version": "1.1",
+  "version": "1.101",
   "manifest_version": 2,
   "description": "Customize the color scheme of the developers favorite pages",
   "homepage_url": "https://github.com/rodrigore/ColorDev",
@@ -11,7 +11,7 @@
   },
   "page_action" : {
       "default_icon" : "icons/stack19.png",
-      "default_title" : "Choose your Color Scheme for stackoverflow",
+      "default_title" : "Choose your Color Scheme for stackoverflow (soon GitHub)",
       "default_popup": "src/page_action/page_action.html"
    },
   "background": {
