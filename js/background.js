@@ -1,7 +1,7 @@
 chrome.tabs.onUpdated.addListener(checkForValidUrl);
 
 function checkForValidUrl(tabId, changeInfo, tab) {
-    if (tab.url.indexOf('stackoverflow.com') > -1) {
+    if (tab.url.indexOf('http://stackoverflow.com') > -1) {
        loadUserTheme();
        showIcon(tab.id);
    }
