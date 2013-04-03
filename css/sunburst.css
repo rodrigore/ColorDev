@@ -1,0 +1,60 @@
+pre, code, blockquote {
+    background-color: #000 !important;
+    color: #f8f8f8 !important;
+}
+
+/*types*/
+.typ {
+    color: #99cf50 !important;
+}
+
+/*keyword*/
+.kwd {
+    color: #99cf50 !important;
+}
+
+/*var*/
+.pln {
+    color:#f8f8f8 !important;
+}
+
+/*punctuation*/
+.pun {
+    color:#f8f8f8 !important;
+}
+
+/*string*/
+.str {
+    color:#65b042 !important;
+}
+
+/*literal*/
+.lit {
+    color:#65b042 !important;
+}
+
+/*comentary*/
+.com {
+    color:#aeaeae !important;
+     font-style: italic !important;
+
+}
+
+/** doctype */
+.dec {
+    color:#aeaeae !important;
+}
+
+/** attribute */
+.atn {
+    color: #89bdff !important;
+}
+
+.tag {
+    color: #89bdff !important;
+}
+
+/*attribute HTML*/
+.atv {
+    color:#65b042 !important;
+}
