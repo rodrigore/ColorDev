@@ -22,7 +22,7 @@ This Lite extension inject the CSS of the pages in stackoverflow, changing the c
 
 When a user choose an theme, their theme is save in the localstorage.
 
-For now, only two themes are available (Solarized light-Dark).
+For now, only 4 themes are available (Solarized light-Dark, BlackBoard, Sunburst).
 
 ## Notes about the CSS of stackoverflow
 
