@@ -14,7 +14,7 @@ Github, bitbucket and more are coming.
 
 You can install the extension from the [URL of the webstore](https://chrome.google.com/webstore/detail/color-dev/kjccccpbheobmffklpejpgjapcbnlkng)
 
-Another option, is install locally,downloading the zip file and loading in the chrome.
+Another option, is install locally,downloading the zip file and loading in Chrome.
 
 ## How it  Works?
 
@@ -62,7 +62,6 @@ The next list represents the CSS classes what I observed in stackoverflow:
 As you can see, stackoverflow group a lot of elements in the same class, i.e the class pun.
 
 You can create your own theme adding style to the classes.
-
 
 ## Note
 

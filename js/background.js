@@ -2,7 +2,6 @@
 chrome.tabs.onUpdated.addListener(main);
 
 function main(tabId, changeInfo, tab){
-    console.log(changeInfo);
     if ( isStackoverflowDomain(tab.url) && isLoadComplete(tab.status) ) {
       loadUserTheme();
       showIcon(tabId);
