@@ -24,15 +24,41 @@ When a user choose an theme, their theme is save in the localstorage.
 
 ## List of themes (Currently)
 
-* Solarized light
-* Solarized Dark
-* BlackBoard
-* Sunburst
-* Laravel dark theme(new)
-* Tomorrow Night Bright(new)
-* Monokai Bright(new)
-* GitHub(new)
-* Rails Cast(new)
+### Solarized light
+
+![Solarized light](https://raw.github.com/rodrigore/colordev/master/screenshots/solarized-light.png)
+
+### Solarized Dark
+
+![Solarized Dark](https://raw.github.com/rodrigore/colordev/master/screenshots/solarized-dark.png)
+
+### Blackboard
+
+![Blackboard](https://raw.github.com/rodrigore/colordev/master/screenshots/blackboard.png)
+
+### Sunburst
+
+![Sunburst](https://raw.github.com/rodrigore/colordev/master/screenshots/sunburst.png)
+
+### Laravel Dark theme
+
+![Laravel Dark theme](https://raw.github.com/rodrigore/colordev/master/screenshots/laravel-dark.png)
+
+### Tomorrow Night Bright
+
+![Tomorrow Night Bright](https://raw.github.com/rodrigore/colordev/master/screenshots/tomorrow-night-bright.png)
+
+### Monokai Bright
+
+![Monokai Bright](https://raw.github.com/rodrigore/colordev/master/screenshots/monokai-bright.png)
+
+### GitHub
+
+![GitHub](https://raw.github.com/rodrigore/colordev/master/screenshots/github.png)
+
+### Rails Cast
+
+![Rails Cast](https://raw.github.com/rodrigore/colordev/master/screenshots/rails-cast.png)
 
 ## Notes about the CSS of stackoverflow
 
