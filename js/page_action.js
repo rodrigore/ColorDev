@@ -3,7 +3,7 @@ var app = (function() {
     var sel = document.getElementById("themes"),
 
         loadTheme = function (nameFile) {
-            chrome.tabs.insertCSS(null, {file: "css/" + nameFile + ".css"});
+            chrome.tabs.insertCSS(null, {file: "css/themes/" + nameFile + ".css"});
         },
 
         saveOptions = function(options) {

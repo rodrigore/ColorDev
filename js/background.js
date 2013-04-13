@@ -1,20 +1,36 @@
-chrome.tabs.onUpdated.addListener(checkForValidUrl);
+//chrome.tabs.onCreated.addListener(main);
+chrome.tabs.onUpdated.addListener(main);
 
-function checkForValidUrl(tabId, changeInfo, tab) {
-    if (tab.url.indexOf('http://stackoverflow.com') > -1) {
-       loadUserTheme();
-       showIcon(tab.id);
-   }
+function main(tabId, changeInfo, tab){
+    console.log(changeInfo);
+    if ( isStackoverflowDomain(tab.url) && isLoadComplete(tab.status) ) {
+      loadUserTheme();
+      showIcon(tabId);
+    }
+}
+
+function isStackoverflowDomain(url) {
+    if (url.indexOf('http://stackoverflow.com') > -1) {
+       return true;
+    }
+    return false;
+}
+
+function isLoadComplete(status){
+    if (status === 'complete') {
+      return true;
+    }
+    return false;
 }
 
 var loadUserTheme = function() {
-    if (localStorage["theme"] && localStorage["theme"] !== "default") {
+    if (localStorage["theme"] && localStorage["theme"] !== "stackoverflow") {
         loadFile( localStorage["theme"] );
     }
 };
 
 var loadFile = function (nameFile) {
-    chrome.tabs.insertCSS(null, {file: "css/" + nameFile + ".css"});
+    chrome.tabs.insertCSS(null, {file: "css/themes/" + nameFile + ".css"});
 };
 
 var showIcon = function(tabID) {
