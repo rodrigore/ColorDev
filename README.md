@@ -31,6 +31,8 @@ When a user choose an theme, their theme is save in the localstorage.
 * Laravel dark theme(new)
 * Tomorrow Night Bright(new)
 * Monokai Bright(new)
+* GitHub(new)
+* Rails Cast(new)
 
 ## Notes about the CSS of stackoverflow
 
