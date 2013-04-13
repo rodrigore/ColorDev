@@ -1,0 +1,34 @@
+body {
+    background-color: #fdf6e3;
+    color: #586e75;
+    width: 200px;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+/** Style taken from Bootstrap */
+select {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    padding: 4px 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+    border-radius: 4px;
+}
