@@ -22,8 +22,6 @@ This Lite extension inject the CSS of the pages in stackoverflow, changing the c
 
 When a user choose an theme, their theme is save in the localstorage.
 
-For now, only 4 themes are available (Solarized light-Dark, BlackBoard, Sunburst).
-
 ## List of themes (Currently)
 
 * Solarized light
@@ -32,6 +30,7 @@ For now, only 4 themes are available (Solarized light-Dark, BlackBoard, Sunburst
 * Sunburst
 * Laravel dark theme(new)
 * Tomorrow Night Bright(new)
+* Monokai Bright(new)
 
 ## Notes about the CSS of stackoverflow
 
