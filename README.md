@@ -24,6 +24,14 @@ When a user choose an theme, their theme is save in the localstorage.
 
 For now, only 4 themes are available (Solarized light-Dark, BlackBoard, Sunburst).
 
+## List of themes (Currently)
+
+* Solarized light
+* Solarized Dark
+* Laravel dark theme(new)
+* BlackBoard
+* Sunburst
+
 ## Notes about the CSS of stackoverflow
 
 The next list represents the CSS classes what I observed in stackoverflow:
@@ -53,13 +61,6 @@ As you can see, stackoverflow group a lot of elements in the same class, i.e the
 
 You can create your own theme adding style to the classes.
 
-# Todo:
-
-* Add more schemes
-* Customize GitHub Code
-* Customize Bitbucket Code
-* Maybe add an option that allow to the user load the scheme of Sublime Text, and convert to css.
-* ...
 
 ## Note
 
