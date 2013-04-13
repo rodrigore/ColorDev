@@ -28,9 +28,10 @@ For now, only 4 themes are available (Solarized light-Dark, BlackBoard, Sunburst
 
 * Solarized light
 * Solarized Dark
-* Laravel dark theme(new)
 * BlackBoard
 * Sunburst
+* Laravel dark theme(new)
+* Tomorrow Night Bright(new)
 
 ## Notes about the CSS of stackoverflow
 
