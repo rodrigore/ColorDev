@@ -6,23 +6,23 @@
 
 Customize the color scheme of the code that appears in stackoverflow.
 
-This is not a extension who customize the entire page. The main purpose is to beautify the code that you read from the stackoverflow.
+This is not an extension that customize the entire page. The main purpose is to beautify the code that you read from stackoverflow site.
 
-Github, bitbucket and more are coming.
+Github, bitbucket and more others are coming soon.
 
-## Install
+## Installation
 
-You can install the extension from the [URL of the webstore](https://chrome.google.com/webstore/detail/color-dev/kjccccpbheobmffklpejpgjapcbnlkng)
+You can install this extension from the [URL of the webstore](https://chrome.google.com/webstore/detail/color-dev/kjccccpbheobmffklpejpgjapcbnlkng)
 
-Another option, is install locally,downloading the zip file and loading in Chrome.
+Another option, is to install locally downloading the .zip file and loading it on Chrome.
 
-## How it  Works?
+## How it works?
 
-This Lite extension inject the CSS of the pages in stackoverflow, changing the colors of the code.
+This Lite extension injects CSS in the pages of stackoverflow, changing the colors of the code.
 
-When a user choose an theme, their theme is save in the localstorage.
+When users choose a theme, their theme is saved in the localstorage.
 
-## List of themes (Currently)
+## List of themes available
 
 ### Solarized light
 
@@ -62,7 +62,7 @@ When a user choose an theme, their theme is save in the localstorage.
 
 ## Notes about the CSS of stackoverflow
 
-The next list represents the CSS classes what I observed in stackoverflow:
+The next list represents the CSS classes what I have observed in stackoverflow:
 
 * **typ** => `types` => String, Boolean, Test, Scanner, Date, etc.
 
@@ -85,13 +85,9 @@ The next list represents the CSS classes what I observed in stackoverflow:
 * **atv** => `Attribute value`
 
 
-As you can see, stackoverflow group a lot of elements in the same class, i.e the class pun.
+As you can see, stackoverflow groups a lot of elements in the same class, e.g. class pun.
 
-You can create your own theme adding style to the classes.
-
-## Note
-
-Apologies for my Tarzan English.
+You can create your own theme just adding style to the classes.
 
 ## Credits
 
