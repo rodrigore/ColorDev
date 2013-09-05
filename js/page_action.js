@@ -1,4 +1,5 @@
 var app = (function() {
+  console.log('hola app');
 
     var sel = document.getElementById("themes"),
 
@@ -25,7 +26,8 @@ var app = (function() {
             }
         };
 
-    sel.addEventListener("click", function() {
+        
+    var updateTheme = sel.addEventListener("change", function(event) {
         var themeSelected = sel.options[sel.selectedIndex].value;
         var options = {"name": themeSelected};
         loadTheme(themeSelected);
@@ -33,6 +35,7 @@ var app = (function() {
 
     });
 
+    document.addEventListener('DOMContentLoaded', updateTheme);
     document.addEventListener('DOMContentLoaded', restoreOption);
 
 })();
